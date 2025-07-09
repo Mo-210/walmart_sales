@@ -43,7 +43,17 @@ Sales performance by time, city, and payment method.
 Analyzing peak sales periods and customer buying patterns.
 Profit margin analysis by branch and category.
 Documentation: Keep clear notes of each query's objective, approach, and results.
-10. Project Publishing and Documentation
+
+Questions:
+Q1: -- Q1  find the different payment method and the number of transactions, number of qty sold
+
+'''sql
+select payment_method, count(*) as no_payments,sum(quantity) as no_qty_sold
+ from walmart
+group by payment_method;
+'''
+
+11. Project Publishing and Documentation
 Documentation: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
 Project Publishing: Publish the completed project on GitHub or any other version control platform, including:
 The README.md file (this document).
