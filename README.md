@@ -47,11 +47,11 @@ Documentation: Keep clear notes of each query's objective, approach, and results
 Questions:
 Q1: -- Q1  find the different payment method and the number of transactions, number of qty sold
 
-'''sql
+```sq
 select payment_method, count(*) as no_payments,sum(quantity) as no_qty_sold
  from walmart
 group by payment_method;
-'''
+```
 
 11. Project Publishing and Documentation
 Documentation: Maintain well-structured documentation of the entire process in Markdown or a Jupyter Notebook.
