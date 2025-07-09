@@ -1,22 +1,29 @@
-
+-- Creating a database called walmart_db:
 create database walmart_db;
+
+-- To show the databases we have
 SHOW DATABASES;
 
+-- To use the selected database to start using it
 use walmart_db;
+
+-- To show tables inside the database:
 show tables;
 
+-- To Select all the variables inside the table(walmrt table)
 select * from walmart;
 
+-- To know all payment Methods we have:
 select distinct payment_method from walmart;
 
+-- To khow all payment Methods and their counts
 select payment_method,count(*) from walmart
 group by payment_method;
 
-
+-- To count how many branches
 select count(distinct branch) branch from walmart;
 
-
-
+-- To khow how many max and minimum quantity have been ordered 
 select max(quantity),min(quantity) from walmart;
 
 -- Business Problms
