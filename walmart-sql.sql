@@ -279,6 +279,6 @@ WHERE total > (SELECT AVG(total) + 2 * STDDEV(total) FROM walmart)
 ORDER BY total DESC;
 
 -- ==========================================
--- 	END OF SCRIPT
---  Thank You
+-- END OF SCRIPT
+-- Thank You
 -- ==========================================
