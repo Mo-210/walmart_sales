@@ -1,5 +1,21 @@
+Requirement for Project file:
+
+# This file contains the list of packages required for the project.
 pandas
+numpy
+matplotlib
+seaborn
 pymysql
 sqlalchemy 
 psycopg2
+
+# To activate the virtual environment in, use in terminal:
+
+#Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+#       Then
+# .\my_env1\Scripts\Activate.ps1
+
+
+
+
 
