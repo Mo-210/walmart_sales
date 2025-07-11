@@ -43,6 +43,7 @@ Sales performance by time, city, and payment method.
 Analyzing peak sales periods and customer buying patterns.
 Profit margin analysis by branch and category.
 10. On project.ipynb make your visulaizations using matplotlib and seaborn libraries, and make your insights and recomendations.
+11. Open Power Bi to deliver the most important KPI's in a dashboard.
 Documentation: Keep clear notes of each query's objective, approach, and results.
 
 -- Business Problms
